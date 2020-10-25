@@ -57,6 +57,7 @@ const App = () => {
     setRenderBall(true);
   };
   const reset = () => {
+    setRenderBall(false);
     updatePosition(0, 0);
   };
   const renderChoice = () => {
